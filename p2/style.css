@@ -6,9 +6,50 @@
 html, body{
     height: 100%;
     width: 100%;
-    background-color: black ;
+    background-color: #fff ;
+}
+body{
+    overflow-x: hidden;
 }
 #page1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 163, 177);
+    padding: 5vw 0;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(130, 139, 182);
+}
+#page2 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #page1{
     height: 100%;
     width: 100%;
     background-color: aqua;
@@ -49,4 +90,4 @@ html, body{
     background-color: yellow;
     border-radius: 50px;
     padding: 20px;
-}
+} */
