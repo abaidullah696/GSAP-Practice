@@ -12,6 +12,10 @@ html, body{
     height: 100%;
     width: 100%;
     background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #curser{
     width: 20px;
@@ -19,4 +23,27 @@ html, body{
     background-color: #fff;
     border-radius: 50%;
     position: fixed ;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+#image{
+    height: 60vh;
+    width: 60vh;
+    position: relative;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
 }
