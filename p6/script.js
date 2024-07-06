@@ -39,5 +39,5 @@ gsap.from("h1 .b",{
     opacity:0,
     duration:0.8,
     delay:0.5,
-    stagger:-0.3
+    stagger:-0.3            // reverse stager for rest of the words where class is b
 })
