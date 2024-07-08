@@ -1,8 +1,12 @@
+@font-face {
+    font-family: font1;
+    src: url(./CircularXXWeb-Book.woff2);
+}
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: font1;
 }
 html, body{
     height: 100%;
@@ -12,7 +16,6 @@ html, body{
 section{
     width: 100%;
     height: 100%;
-    background-color: aqua;
 }
 nav{
     display: flex;
@@ -43,5 +46,48 @@ nav button{
     background-color: transparent;
     font-weight: 600;
     border: 1px solid black;
+}
+#center{
+    height: 79%;
+    width: 100%;
+    display: flex;
+}
+#cntr-left{
+    width: 45%;
+    height: 100%;
+    padding: 40px 60px;
 
+}
+
+#cntr-left h1{
+    font-size: 100px;
+}
+#cntr-left p{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#cntr-left button{
+    font-size: 25px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
+}
+#cntr-right{
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+#cntr-right img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+}
+#section1buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
