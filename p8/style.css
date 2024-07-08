@@ -156,3 +156,18 @@ nav button{
     font-weight: 900;
     border-radius: 50px;
 }
+.black{
+    background-color: #111;
+
+}
+.black h2{
+    background-color: #fff;
+
+}
+.black h3{
+    color: #fff;
+}
+.black h3 i{
+    background-color: #fff;
+    color: #111;
+}
