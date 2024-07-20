@@ -25,13 +25,13 @@ tl.from("#section1bottom img",{
 })
 }
 
-// page1Animation()
+page1Animation()
 
 var tl2 = gsap.timeline({
     scrollTrigger: {
         scroller:"body",
         trigger: ".section2",
-        markers: true,
+        // markers: true,
         start: "top 50%", // Trigger animation when top of trigger element hits 50% of viewport height
         end:"top 80%",
         scrub: 2         // Scrub animation over 2 units of scroll
